@@ -1,0 +1,296 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.marginPage
+{
+  margin: 2%;
+  padding: 0;
+}
+
+h1 {
+  color:gray;
+}
+
+.carouselText {
+  color:rgba(0, 0, 0, 0.616);
+}
+
+.DivFellows {
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+
+.DivFellows p {
+  font-size: 18px;
+  padding-top: 0.6%;
+}
+
+.card-deck {
+  width: 70%;
+}
+
+.divTheRing {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.divTheRing span {
+ font-size: 20px;
+ margin-bottom: 2%;
+ margin-right: 1%;
+}
+
+.reward {
+	position: absolute;
+	color: black;
+	text-align: center;
+	border-radius: 5px;
+	color: black;
+	background-color: white;
+	margin: 10px auto;
+	top: 0;
+  left: 12%;
+  width: 80%;
+}
+
+.reward h3 {
+	text-align: center;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.reward2 {
+	position: absolute;
+	color: black;
+	text-align: center;
+	color:rgba(0, 0, 0, 0.616);
+	margin: 50% auto;
+	top: 0;
+  left: 12%;
+  width: 80%;
+}
+
+.reward2 h3 {
+	text-align: center;
+  margin-top: 5px;
+  font-size: 40px;
+}
+
+.orange {
+	color: #ff7a00;
+}
+
+.card img {
+  opacity: 0.5;
+}
+
+.card img:hover {
+	opacity: 1;
+}
+
+.card:hover .reward {
+	opacity: 0;
+}
+
+.card:hover .reward2 {
+	opacity: 0;
+}
+
+.mediaMargin {
+  margin-top: 4%;
+}
+
+.button1 {
+  text-align: center;
+  
+}
+
+.button1 p {
+  font-size: 20px;
+  height: 15px;
+}
+
+.textH5 {
+  margin-bottom: 2%;
+}
+
+.hunters {
+  display: inline-flex;
+}
+
+#best-hunters h2 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: start;
+}
+
+#best-hunters {
+  text-align: center;
+}
+
+.mediaGangalfHunters {
+  margin-top: 4%;
+}
+
+.divMediHunters {
+  margin-right: 20%;
+}
+
+.mediaBodyText {
+  width: 150px;
+}
+
+.card-tab {
+  display: inline-flex;
+  margin-left: 2.7%;
+  margin-bottom: 1%;
+}
+
+.ringTab {
+  text-align: center;
+}
+
+.card2 {
+  display: inline-flex;
+}
+
+.card2 h2 {
+  text-align: start;
+}
+
+.card2 p {
+  text-align: start;
+  margin-left: 4%;
+}
+
+.h2Ring {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.Gollum  {
+  color: grey;
+}
+
+.mediaGollum {
+  text-align: end;
+  width: 80%;
+  margin-bottom: 1%;
+}
+
+.mediaGollum .Gollum  {
+  text-align: end;
+  margin-right: 20%;
+}
+
+.mediaGollum .GollumFirst  {
+  margin-left: 12%; 
+  margin-top: 4%;
+}
+
+
+.mediaGollum img {
+  opacity: 0.9;
+}
+
+.join-the-army {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.footerPrecious {
+  background: gray;
+}
+
+.footer-1 {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer-1 ul {
+  margin: 4% 5%;
+  color: white;
+}
+
+.formulaire {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+ul.ulFooter {
+  margin-left: 20%;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 414px) { 
+.titreH1 {
+  font-size: 18px;
+}
+  
+.divTheRing span {
+  font-size: 12px;
+}
+
+.DivFellows h2 {
+  font-size: 14px;
+}  
+
+.DivFellows p {
+  font-size: 11px;
+} 
+
+.mediaMargin img {
+display: none;
+}
+
+.hunters {
+
+  display: inline-block;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+h3 , h4 ,h5 {
+  font-size: 12px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.ringTab, .h2Ring {
+  display: none;
+}
+
+.button1 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+ #join-the-army img {
+  display: none;
+}
+
+.footerPrecious {
+  font-size: 10px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.ringTab {
+  display: none;
+}
+
+} 
