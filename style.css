@@ -4,6 +4,68 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: 'pete-klassen_aniron';
+  src: url('pete-klassen_aniron/anicb___.ttf');
+  src: url('pete-klassen_aniron/anicm___.ttf');
+  src: url('pete-klassen_aniron/anirb___.ttf');
+  src: url('pete-klassen_aniron/anirm___.ttf');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'tengwar_annatar';
+  src: url('tengwar_annatar/tngan.ttf');
+  src: url('tengwar_annatar/tnganb.ttf');
+  src: url('tengwar_annatar/tnganbi.ttf');
+  src: url('tengwar_annatar/tngani.ttf');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'nancy-lorenz_party-business';
+  src: url('nancy-lorenz_party-business/partybusiness.ttf');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+p, span, div{
+  font-family: 'nancy-lorenz_party-business', "Times New Roman", Verdana, sans-cerif;
+  font-size: 22px;
+}
+
+h2,h3,h4,h5
+{
+  font-family: 'pete-klassen_aniron', "Times New Roman", Verdana, sans-cerif;
+  font-size: 28px;
+}
+
+h6
+{
+  font-family: 'tengwar_annatar', "Times New Roman", Verdana, sans-cerif;
+  font-size: 28px;
+  color: #ef6330;
+}
+
+.ij {
+  font-family: 'tengwar_annatar', "Times New Roman", Verdana, sans-cerif;
+  font-size: 38px;
+  color: #ef6330;
+}
+
+nav {
+  background-color: #ef6330;
+}
+
+body {
+    background: url("integration_maquette_finale/bg_light.png")
+
+}
 .marginPage
 {
   margin: 2%;
@@ -14,8 +76,19 @@ h1 {
   color:gray;
 }
 
+
 .carouselText {
-  color:rgba(0, 0, 0, 0.616);
+  color: white;
+  top: 45%;
+}
+
+.carouselText h2 {
+  font-size: 250%;
+  padding-bottom: 2%;
+}
+
+.carouselText p {
+  font-size: 150%;
 }
 
 .DivFellows {
@@ -23,15 +96,27 @@ h1 {
   width: 100%;
   margin-bottom: 2%;
   margin-top: 1%;
+  font-size: 200%;
 }
 
+
 .DivFellows p {
-  font-size: 18px;
-  padding-top: 0.6%;
+  font-size: 60%;
+  position: relative;
+  top: -3px;
+}
+
+#the-ring {
+  background: url("integration_maquette_finale/bg_light.png")
 }
 
 .card-deck {
   width: 70%;
+}
+
+.card-body{
+  background: url("integration_maquette_finale/bg_dark.png");
+  color: grey;
 }
 
 .divTheRing {
@@ -83,7 +168,7 @@ h1 {
 }
 
 .orange {
-	color: #ff7a00;
+	color: #ef6330;;
 }
 
 .card img {
@@ -102,26 +187,58 @@ h1 {
 	opacity: 0;
 }
 
+#get-my-reward {
+  background: url("integration_maquette_finale/bg_dark.png");
+  color: white;
+  padding: 1%;
+}
+
+#get-my-reward p {
+  padding-left: 2%;
+}
+
 .mediaMargin {
   margin-top: 4%;
 }
 
 .button1 {
   text-align: center;
-  
+  margin-bottom: 3%;
+  margin-top: 3%;
 }
 
-.button1 p {
-  font-size: 20px;
-  height: 15px;
+.button1 .btn {
+  font-size: 250%;
+  color: #ef6330;
 }
+
 
 .textH5 {
   margin-bottom: 2%;
+  width: 120%;
+}
+
+.textH5 h5{
+  font-size: 140%;
+}
+
+.textP {
+  margin-right: 1%;
+  color: grey;
+}
+
+.imgMyReward {
+  margin-top: 6%;
+}
+
+.divTheRing .card {
+  border: 5px black solid;
 }
 
 .hunters {
   display: inline-flex;
+  margin-left: -12%;
+  margin-top: 3%;
 }
 
 #best-hunters h2 {
@@ -130,8 +247,15 @@ h1 {
   text-align: start;
 }
 
+#get-my-reward {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
 #best-hunters {
   text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .mediaGangalfHunters {
@@ -139,11 +263,16 @@ h1 {
 }
 
 .divMediHunters {
-  margin-right: 20%;
+  margin-right: 30%;
 }
+
 
 .mediaBodyText {
   width: 150px;
+}
+
+.mediaBodyText h5 {
+  color: #ef6330;
 }
 
 .card-tab {
@@ -167,6 +296,32 @@ h1 {
 .card2 p {
   text-align: start;
   margin-left: 4%;
+}
+
+.RingSection .card-header1 {
+  background: #ff7a00
+}
+
+.RingSection {
+  background: url("integration_maquette_finale/bg_dark.png");
+}
+
+.ringTab1 .card {
+  margin-top: 5%;
+}
+
+h2.h2Ring  {
+  color: grey;
+  padding-top: 4%;
+  padding-left: 2%;
+}
+
+.ringTab2 .card {
+  margin-bottom: 100px;
+}
+
+.RingSection .h2Ring h2 {
+  margin-top: 100px;
 }
 
 .h2Ring {
@@ -199,13 +354,44 @@ h1 {
   opacity: 0.9;
 }
 
-.join-the-army {
-  margin-top: 4%;
-  margin-bottom: 4%;
+
+#join-the-army img {
+  width: 30%;
+}
+
+#contact-us {
+  background: url("integration_maquette_finale/bg_dark.png");
+  color: grey;
+}
+
+#contact-us h2 {
+  padding: 4% 0 4% 2%;
+  color: white;
+}
+
+.formulaire {
+  width: 100%;
+  display: inline-flex; 
+  justify-content: center;
+}
+
+.formulaire img {
+  width: 50%;
+  height: 50%;
+  margin: 0 2% 1% 2%;
+}
+
+.formulaire form {
+  width: 50%;
+  padding-left: 1%;
+}
+
+.formulaire button {
+  font-size: 130%;
 }
 
 .footerPrecious {
-  background: gray;
+  background-color: #ef6330;
 }
 
 .footer-1 {
@@ -217,33 +403,41 @@ h1 {
 .footer-1 ul {
   margin: 4% 5%;
   color: white;
+  font-size: 130%;
 }
 
-.formulaire {
-  margin-left: 20%;
-  margin-right: 20%;
-}
 
 ul.ulFooter {
   margin-left: 20%;
-  font-weight: bold;
+  font-weight: bold; 
+}
+
+#join-the-army {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 @media screen and (max-width: 414px) { 
-.titreH1 {
-  font-size: 18px;
-}
   
 .divTheRing span {
+  font-size: 10px;
+}
+
+#the-ring span {
   font-size: 12px;
 }
 
+.DivFellows {
+  display: block;
+  text-align: center;
+}
+
 .DivFellows h2 {
-  font-size: 14px;
+  font-size: 16px;
 }  
 
 .DivFellows p {
-  font-size: 11px;
+  font-size: 12px;
 } 
 
 .mediaMargin img {
@@ -262,11 +456,20 @@ h2 {
 }
 
 h3 , h4 ,h5 {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 p {
+  font-size: 14px;
+}
+
+.textH5 {
   font-size: 12px;
+  margin: 0 5px 10px 5px;
+}
+
+.textH5 span {
+  font-size: 16px;
 }
 
 .ringTab, .h2Ring {
@@ -282,8 +485,9 @@ p {
   display: none;
 }
 
-.footerPrecious {
-  font-size: 10px;
+
+.footer-1 {
+  font-size: 11px;
 }
 
 }
