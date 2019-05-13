@@ -1,0 +1,48 @@
+$x: 30px;
+$y: 30px;
+$bordRadius: 100px;
+$border: solid;
+$colorRing: black;
+$margLeft: -20px;
+$margTop: -5px;
+$borderWidthRings: 1px;
+$shadow: 0 0 2em black;
+
+.Rings{
+  display: flex;
+  justify-content: center;
+}
+
+
+@mixin RingsMixin ($x, $y, $bordRadius, $border, $borderWidthRings, $colorRing, $shadow, $margLeft, $margTop) {
+    width : $x ;
+    height : $y ;   
+    border-radius: $bordRadius;
+    border: $border;
+    border-width: $borderWidthRings;
+    color: $colorRing;
+    box-shadow: $shadow;
+    margin-left: $margLeft;
+    margin-top: $margTop;
+}
+
+@for $i from 1 through 6 {
+    .Rings#{$i} {
+  @include RingsMixin(30px + $i*10, 30px + $i*10, 50px, solid, 2px + $i, rgb(82, 79, 79), 0 0 2px+$i black, -10px - $i*2, -5px - $i*7);
+    }
+}
+
+.SmallRings{
+  @include RingsMixin(50px, 50px, 50px, solid, 5px,  rgb(211, 94, 26), 0 0 2px rgb(211, 94, 26), 1%, 0px);
+  margin-right: 1%;
+}
+
+.XlRing{
+  @include RingsMixin(150px, 150px, 100px, solid, 10px, yellow, 0 0 4px yellow, 0px, -60px);
+  margin-right: 20px;
+}
+
+.Please {
+    text-align: center;
+    padding: 1% 0 5% 0;
+  }

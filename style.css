@@ -1,3 +1,5 @@
+@import 'style.scss';
+
 *
 {
   margin: 0;
@@ -416,6 +418,120 @@ ul.ulFooter {
   margin-top: 10%;
   margin-bottom: 10%;
 }
+
+
+
+/* scss */
+
+.Rings {
+  display: flex;
+  justify-content: center;
+}
+
+.Rings1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: solid;
+  border-width: 3px;
+  color: #524f4f;
+  box-shadow: 0 0 3px black;
+  margin-left: -12px;
+  margin-top: -12px;
+}
+
+.Rings2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: solid;
+  border-width: 4px;
+  color: #524f4f;
+  box-shadow: 0 0 4px black;
+  margin-left: -14px;
+  margin-top: -19px;
+}
+
+.Rings3 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  border: solid;
+  border-width: 5px;
+  color: #524f4f;
+  box-shadow: 0 0 5px black;
+  margin-left: -16px;
+  margin-top: -26px;
+}
+
+.Rings4 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  border: solid;
+  border-width: 6px;
+  color: #524f4f;
+  box-shadow: 0 0 6px black;
+  margin-left: -18px;
+  margin-top: -33px;
+}
+
+.Rings5 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  border: solid;
+  border-width: 7px;
+  color: #524f4f;
+  box-shadow: 0 0 7px black;
+  margin-left: -20px;
+  margin-top: -40px;
+}
+
+.Rings6 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  border: solid;
+  border-width: 8px;
+  color: #524f4f;
+  box-shadow: 0 0 8px black;
+  margin-left: -22px;
+  margin-top: -47px;
+}
+
+.SmallRings {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: solid;
+  border-width: 5px;
+  color: #d35e1a;
+  box-shadow: 0 0 2px #d35e1a;
+  margin-left: 1%;
+  margin-top: 0px;
+  margin-right: 1%;
+}
+
+.XlRing {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: solid;
+  border-width: 10px;
+  color: yellow;
+  box-shadow: 0 0 4px yellow;
+  margin-left: 0px;
+  margin-top: -60px;
+  margin-right: 20px;
+}
+
+.Please {
+  text-align: center;
+  padding: 1% 0 5% 0;
+}
+
+/* fin scss */
 
 @media screen and (max-width: 414px) { 
   
